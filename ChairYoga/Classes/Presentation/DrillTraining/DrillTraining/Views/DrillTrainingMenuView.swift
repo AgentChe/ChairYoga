@@ -115,7 +115,7 @@ private extension DrillTrainingMenuView {
     
     func makeFinishButton() -> UIButton {
         let attrs = TextAttributes()
-            .textColor(Appearance.mono200)
+            .textColor(Appearance.mono100)
             .font(Fonts.Inter.semiBold(size: 16.scale))
             .lineHeight(19.scale)
             .textAlignment(.center)

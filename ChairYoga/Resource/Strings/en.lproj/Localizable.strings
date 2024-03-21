@@ -29,7 +29,7 @@
 
 // MARK: Paygate
 "Paygate.Title" = "UNLOCK PREMIUM STATUS";
-"Paygate.Cell1" = "Customized wall pilates workouts";
+"Paygate.Cell1" = "Customized chair yoga workouts";
 "Paygate.Cell2" = "Clear instructions";
 "Paygate.Cell3" = "Easily schedule your training";
 "Paygate.Info" = "Secured by the App Store. Cancel anytime.";
@@ -48,7 +48,7 @@
 "Paygate.Price.Period" = "month";
 
 // MARK: Onboarding
-"Onboarding.Welcome.Title" = "WELCOME TO\nWALL PILATES";
+"Onboarding.Welcome.Title" = "WELCOME TO\nCHAIR YOGA";
 "Onboarding.Welcome.Button" = "Start now";
 "Onboarding.Gender.Title" = "What is your gender?";
 "Onboarding.Gender.Male" = "Male";
@@ -139,7 +139,7 @@
 
 // MARK: Train
 "Train.SeeAll" = "See all";
-"Train.Workouts" = "Wall Pilates Workouts";
+"Train.Workouts" = "Chair Yoga Workouts";
 "Train.FocusZones" = "Focus Zones";
 "Train.Steps" = "Select by goals";
 "Train.ExercisesCount" = "%i exercises";

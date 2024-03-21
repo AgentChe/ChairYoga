@@ -1493,8 +1493,8 @@
 		DE38C0472BAB3B130019C044 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				DE38C0482BAB3B130019C044 /* SplashViewController.swift */,
 				DE38C0492BAB3B130019C044 /* Utils */,
+				DE38C0482BAB3B130019C044 /* SplashViewController.swift */,
 				DE38C04C2BAB3B130019C044 /* SplashViewModel.swift */,
 				DE38C04D2BAB3B130019C044 /* SplashView.swift */,
 			);
@@ -1535,13 +1535,13 @@
 		DE38C0572BAB3B130019C044 /* Paygate */ = {
 			isa = PBXGroup;
 			children = (
-				DE38C0582BAB3B130019C044 /* PaygateViewModel.swift */,
+				DE38C0602BAB3B130019C044 /* Views */,
 				DE38C0592BAB3B130019C044 /* Models */,
+				DE38C0582BAB3B130019C044 /* PaygateViewModel.swift */,
 				DE38C05C2BAB3B130019C044 /* PaygateViewControllerDelegate.swift */,
 				DE38C05D2BAB3B130019C044 /* PaygateInteractor.swift */,
 				DE38C05E2BAB3B130019C044 /* PaygateView.swift */,
 				DE38C05F2BAB3B130019C044 /* PaygateViewController.swift */,
-				DE38C0602BAB3B130019C044 /* Views */,
 			);
 			path = Paygate;
 			sourceTree = "<group>";
@@ -2026,9 +2026,9 @@
 		DE38C0F02BAB3B130019C044 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				DE38C0F32BAB3B130019C044 /* Views */,
 				DE38C0F12BAB3B130019C044 /* MainViewController.swift */,
 				DE38C0F22BAB3B130019C044 /* MainView.swift */,
-				DE38C0F32BAB3B130019C044 /* Views */,
 				DE38C0F72BAB3B130019C044 /* MainViewCoordinator.swift */,
 			);
 			path = Main;
@@ -2090,9 +2090,9 @@
 		DE38C1022BAB3B130019C044 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				DE38C1062BAB3B130019C044 /* Views */,
 				DE38C1032BAB3B130019C044 /* Utils */,
 				DE38C1052BAB3B130019C044 /* OnboardingViewController.swift */,
-				DE38C1062BAB3B130019C044 /* Views */,
 				DE38C11B2BAB3B130019C044 /* OnboardingView.swift */,
 				DE38C11C2BAB3B130019C044 /* OnboardingViewModel.swift */,
 			);
@@ -2112,9 +2112,9 @@
 			children = (
 				DE38C1072BAB3B130019C044 /* Atoms */,
 				DE38C1122BAB3B130019C044 /* OWelcomeView.swift */,
+				DE38C1152BAB3B130019C044 /* OGenderView.swift */,
 				DE38C1132BAB3B130019C044 /* OPreloaderView.swift */,
 				DE38C1142BAB3B130019C044 /* OSlideView.swift */,
-				DE38C1152BAB3B130019C044 /* OGenderView.swift */,
 				DE38C1162BAB3B130019C044 /* ODrillsView.swift */,
 				DE38C1172BAB3B130019C044 /* OSkillLevelView.swift */,
 				DE38C1182BAB3B130019C044 /* ODaysOfWeekView.swift */,
@@ -2740,7 +2740,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wed.ChairYoga;
+				PRODUCT_BUNDLE_IDENTIFIER = training.app.soccer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -2771,7 +2771,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wed.ChairYoga;
+				PRODUCT_BUNDLE_IDENTIFIER = training.app.soccer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
