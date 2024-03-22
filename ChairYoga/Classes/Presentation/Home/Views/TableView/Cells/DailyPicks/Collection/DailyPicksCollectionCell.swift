@@ -27,7 +27,7 @@ final class DailyPicksCollectionCell: UICollectionViewCell {
         .lineHeight(14.4.scale)
         .textAlignment(.center)
     private lazy var actionAttrs = TextAttributes()
-        .textColor(Appearance.mono200)
+        .textColor(Appearance.mono100)
         .font(Fonts.Inter.semiBold(size: 16.scale))
         .lineHeight(19.2.scale)
         .textAlignment(.center)

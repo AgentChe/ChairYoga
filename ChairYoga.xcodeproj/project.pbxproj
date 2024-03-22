@@ -64,7 +64,6 @@
 		DE38C1452BAB3B130019C044 /* PushNotificationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38BF972BAB3B130019C044 /* PushNotificationsModel.swift */; };
 		DE38C1462BAB3B130019C044 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38BF982BAB3B130019C044 /* SceneDelegate.swift */; };
 		DE38C1472BAB3B130019C044 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38BF992BAB3B130019C044 /* Appearance.swift */; };
-		DE38C1482BAB3B130019C044 /* AppsFlyerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38BF9B2BAB3B130019C044 /* AppsFlyerManager.swift */; };
 		DE38C1492BAB3B130019C044 /* BranchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38BF9C2BAB3B130019C044 /* BranchManager.swift */; };
 		DE38C14A2BAB3B130019C044 /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38BF9D2BAB3B130019C044 /* AmplitudeManager.swift */; };
 		DE38C14B2BAB3B130019C044 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38BF9E2BAB3B130019C044 /* FirebaseManager.swift */; };
@@ -394,7 +393,6 @@
 		DE38BF972BAB3B130019C044 /* PushNotificationsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationsModel.swift; sourceTree = "<group>"; };
 		DE38BF982BAB3B130019C044 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DE38BF992BAB3B130019C044 /* Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
-		DE38BF9B2BAB3B130019C044 /* AppsFlyerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsFlyerManager.swift; sourceTree = "<group>"; };
 		DE38BF9C2BAB3B130019C044 /* BranchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchManager.swift; sourceTree = "<group>"; };
 		DE38BF9D2BAB3B130019C044 /* AmplitudeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
 		DE38BF9E2BAB3B130019C044 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
@@ -914,7 +912,6 @@
 		DE38BF9A2BAB3B130019C044 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				DE38BF9B2BAB3B130019C044 /* AppsFlyerManager.swift */,
 				DE38BF9C2BAB3B130019C044 /* BranchManager.swift */,
 				DE38BF9D2BAB3B130019C044 /* AmplitudeManager.swift */,
 				DE38BF9E2BAB3B130019C044 /* FirebaseManager.swift */,
@@ -1382,10 +1379,10 @@
 		DE38C0242BAB3B130019C044 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				DE38C0282BAB3B130019C044 /* Views */,
+				DE38C0272BAB3B130019C044 /* HomeViewController.swift */,
 				DE38C0252BAB3B130019C044 /* HomeViewModel.swift */,
 				DE38C0262BAB3B130019C044 /* HomeView.swift */,
-				DE38C0272BAB3B130019C044 /* HomeViewController.swift */,
-				DE38C0282BAB3B130019C044 /* Views */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -2297,7 +2294,6 @@
 				DE38C13D2BAB3B130019C044 /* PaddingTextField.swift in Sources */,
 				DE38C2042BAB3B140019C044 /* DrillTrainingInstructionViewController.swift in Sources */,
 				DE38C1882BAB3B140019C044 /* IAPErrorHelper.swift in Sources */,
-				DE38C1482BAB3B130019C044 /* AppsFlyerManager.swift in Sources */,
 				DE38C14A2BAB3B130019C044 /* AmplitudeManager.swift in Sources */,
 				DE38C1D52BAB3B140019C044 /* WorkoutTrainingAssembly.swift in Sources */,
 				DE38C20D2BAB3B140019C044 /* ProfileDetailsView.swift in Sources */,
@@ -2726,8 +2722,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChairYoga/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2740,8 +2737,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = training.app.soccer;
+				PRODUCT_BUNDLE_IDENTIFIER = train.chair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -2757,8 +2755,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChairYoga/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2771,8 +2770,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = training.app.soccer;
+				PRODUCT_BUNDLE_IDENTIFIER = train.chair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

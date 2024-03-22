@@ -22,7 +22,6 @@ target 'ChairYoga' do
   pod 'Branch'
   pod 'Firebase/Analytics'
   pod 'Firebase/Messaging'
-  pod 'AppsFlyerFramework'
   pod 'JTAppleCalendar'
 end
 
