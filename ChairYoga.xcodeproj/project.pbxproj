@@ -2726,7 +2726,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4W5848G5V3;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z2WD4P9PA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChairYoga/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2762,7 +2762,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4W5848G5V3;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = Z2WD4P9PA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChairYoga/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
