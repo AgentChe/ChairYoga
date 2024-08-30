@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE31AA222C821CA90089C7C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE31AA212C821CA90089C7C9 /* GoogleService-Info.plist */; };
 		DE38BF3B2BAB3A310019C044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE38BF3A2BAB3A310019C044 /* Assets.xcassets */; };
 		DE38BF3E2BAB3A320019C044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE38BF3C2BAB3A320019C044 /* LaunchScreen.storyboard */; };
 		DE38BF532BAB3AF40019C044 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE38BF482BAB3AF40019C044 /* Inter-Medium.ttf */; };
@@ -20,7 +21,6 @@
 		DE38BF5B2BAB3AF40019C044 /* PlusJakartaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE38BF512BAB3AF40019C044 /* PlusJakartaSans-Bold.ttf */; };
 		DE38BF5C2BAB3AF40019C044 /* PlusJakartaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DE38BF522BAB3AF40019C044 /* PlusJakartaSans-ExtraBold.ttf */; };
 		DE38BF602BAB3AFC0019C044 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE38BF5E2BAB3AFC0019C044 /* Localizable.strings */; };
-		DE38BF622BAB3B000019C044 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE38BF612BAB3B000019C044 /* GoogleService-Info.plist */; };
 		DE38C11D2BAB3B130019C044 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38BF662BAB3B130019C044 /* UIApplication+Extension.swift */; };
 		DE38C11E2BAB3B130019C044 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38BF672BAB3B130019C044 /* UIDevice+Extension.swift */; };
 		DE38C11F2BAB3B130019C044 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE38BF682BAB3B130019C044 /* UIColor+Extension.swift */; };
@@ -334,6 +334,7 @@
 		021A2BEAF2CCFBB3D6CDE84E /* Pods-ChairYoga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChairYoga.release.xcconfig"; path = "Target Support Files/Pods-ChairYoga/Pods-ChairYoga.release.xcconfig"; sourceTree = "<group>"; };
 		15CD6F0524FA0E002AE88167 /* Pods_ChairYoga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChairYoga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C8DDB6AD5D107E890638E7 /* Pods-ChairYoga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChairYoga.debug.xcconfig"; path = "Target Support Files/Pods-ChairYoga/Pods-ChairYoga.debug.xcconfig"; sourceTree = "<group>"; };
+		DE31AA212C821CA90089C7C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DE38BF2E2BAB3A300019C044 /* ChairYoga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChairYoga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE38BF3A2BAB3A310019C044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE38BF3D2BAB3A320019C044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -349,7 +350,6 @@
 		DE38BF512BAB3AF40019C044 /* PlusJakartaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Bold.ttf"; sourceTree = "<group>"; };
 		DE38BF522BAB3AF40019C044 /* PlusJakartaSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		DE38BF5F2BAB3AFC0019C044 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DE38BF612BAB3B000019C044 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DE38BF662BAB3B130019C044 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		DE38BF672BAB3B130019C044 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		DE38BF682BAB3B130019C044 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
@@ -722,7 +722,7 @@
 				DE38BF3A2BAB3A310019C044 /* Assets.xcassets */,
 				DE38BF3C2BAB3A320019C044 /* LaunchScreen.storyboard */,
 				DE38BF3F2BAB3A320019C044 /* Info.plist */,
-				DE38BF612BAB3B000019C044 /* GoogleService-Info.plist */,
+				DE31AA212C821CA90089C7C9 /* GoogleService-Info.plist */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -2218,7 +2218,7 @@
 				DE38BF542BAB3AF40019C044 /* Inter-Bold.ttf in Resources */,
 				DE38BF532BAB3AF40019C044 /* Inter-Medium.ttf in Resources */,
 				DE38BF572BAB3AF40019C044 /* Inter-SemiBold.ttf in Resources */,
-				DE38BF622BAB3B000019C044 /* GoogleService-Info.plist in Resources */,
+				DE31AA222C821CA90089C7C9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2724,7 +2724,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4W5848G5V3;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -2738,7 +2738,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = train.chair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2760,7 +2760,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4W5848G5V3;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -2774,7 +2774,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.4;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = train.chair;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
