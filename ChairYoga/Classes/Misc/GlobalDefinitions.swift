@@ -6,7 +6,7 @@
 //
 
 final class GlobalDefinitions {
-    static let domain = "https://chair.cocorporateapps.com"
+    static let domain = "https://chair.thinkaboutapps.com"
     static let apiKey = "DaF8GpH8HqEhKkC4oKpb"
     
     static let otterScaleHost = "https://api.korrekted.com"
@@ -17,9 +17,9 @@ final class GlobalDefinitions {
     static let applicationTag = "CHAIR_YOGA"
     static let amplitudeApiKey = "ad1acf62a1718340f0958c15b7b9dcfc"
     
-    static let termsOfServiceUrl = "https://cocorporateapps.com/terms-of-use.html"
-    static let privacyPolicyUrl = "https://cocorporateapps.com/privacy-policy.html"
-    static let contactUsUrl = "https://cocorporateapps.com/contacts.html"
+    static let termsOfServiceUrl = "https://thinkaboutapps.com/terms"
+    static let privacyPolicyUrl = "https://thinkaboutapps.com/policy"
+    static let contactUsUrl = "https://thinkaboutapps.com/contact"
     
     enum Paygate {
         static let defaultLifetime = "train.chair.endless"
